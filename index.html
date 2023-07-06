@@ -106,10 +106,6 @@
 		document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
 		document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
 		
-		// Work around NWjs ghost process bug
-		var win = window['nwgui'].Window.get();
-		win.on('close', function () {
-			window['nwgui'].App.quit();
 		});
 		
     </script>
