@@ -1,6 +1,6 @@
 ﻿{
 	"name": "砂矿",
-	"version": "1.12.2.0",
+	"version": "1.12.3.0",
 	"description": "",
 	"id": "",
 	"viewport-width": 854,
@@ -49,6 +49,7 @@
 		"Pathfinding",
 		"Pin",
 		"Platform",
+		"bound",
 		"scrollto",
 		"solid",
 		"wrap"
